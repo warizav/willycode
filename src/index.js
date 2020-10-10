@@ -1,4 +1,3 @@
-import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDom from 'react-dom'
 
-ReactDom.render('willycode!', document.getElementById('app'));
+ReactDom.render('willycode!', document.getElementById('app'))
