@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/api/**/*.ts",
+      "src": "dist/src/api/**",
       "use": "@vercel/node"
     },
     {
@@ -14,7 +14,7 @@
     { "handle": "filesystem" },
     {
       "src": "/api(.*)",
-      "dest": "src/api/main.ts",
+      "dest": "dist/src/api/main.js",
       "methods": ["GET", "POST", "PUT", "DELETE"]
     },
     { "src": "/(.*)", "dest": "dist/src/client/$1" }

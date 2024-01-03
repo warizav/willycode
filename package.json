@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "nest start",
+    "start": "node start",
     "dev": "npm-run-all dev:client & npm-run-all dev:server",
     "dev:client": "vite",
     "dev:server": "nest start",
